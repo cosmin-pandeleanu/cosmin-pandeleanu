@@ -1,4 +1,8 @@
-### Hi there 👋
+### Hello
+
+**These are some of the projects done during university courses:**
+
+[POKEGALACTIS](https://github.com/cosmin-pandeleanu/POKEGALACTIS_GAME)
 
 <!--
 **cosmin-pandeleanu/cosmin-pandeleanu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
