@@ -2,6 +2,10 @@
 
 **These are some of the projects done during _university_ courses:**
 
+* [Facial Expression Recognition](https://github.com/cosmin-pandeleanu/fer)
+
+  Application for recognizing facial expressions using convolutional neural networks (**CNN**). (**Python, Flask**)
+
 * [POKEGALACTIS](https://github.com/cosmin-pandeleanu/POKEGALACTIS_GAME)
 
   Simple 2D pokemon game made in **_Java_**.
