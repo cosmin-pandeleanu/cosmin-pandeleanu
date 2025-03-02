@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<header>
+    <h1>My Personal Portfolio</h1>
+</header>
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+</nav>
+<div class="container">
+    <section id="about">
+        <h2>About Me</h2>
+        <p class="quote">"I aspire to become a Cloud Engineer, leveraging technology to build scalable and efficient solutions."</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3 class="project-title">Personal Portfolio</h3>
+            <p>
+                <a href="https://github.com/cosmin-pandeleanu/cosmin-pandeleanu" target="_blank" class="project-link">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub Logo" class="project-icon">
+                    Link to Project
+                </a>
+            </p>
+            <p>
+                Technologies:
+                <span class="tech-tag">AWS S3</span>
+                <span class="tech-tag">Github Actions</span>
+            </p>
+        </div>
+    </section>
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="card">
+            <div class="cert-header">
+                <img src="assets/img/aws-logo.png" alt="AWS Logo" class="cert-logo">
+                <h3 class="cert-title">AWS Certified Cloud Practitioner</h3>
+            </div>
+            <p class="cert-details">
+                <a href="https://www.credly.com/badges/bec54ccf-73b3-4a2a-a932-18816863d049/linked_in_profile" target="_blank" class="credential-url">
+                    🎖️ Credential URL
+                </a>  &nbsp; | &nbsp;
+                <span class="issued-date">📅 Issued: Apr 2024</span> &nbsp; | &nbsp;
+                <span class="expiry-date">⏳ Expires: Apr 2027</span>
+            </p>
+        </div>
+        <div class="card">
+            <div class="cert-header">
+                <img src="assets/img/azure-logo.png" alt="Azure Logo" class="cert-logo">
+                <h3 class="cert-title">Microsoft Certified: Azure Fundamentals (AZ-900)</h3>
+            </div>
+            <p class="cert-details">
+                <a href="https://learn.microsoft.com/api/credentials/share/en-gb/PandeleanuCosminConstantin-9804/5381DEB87EBC0F51?sharingId" target="_blank" class="credential-url">
+                    🎖️ Credential URL
+                </a> &nbsp; | &nbsp;
+                <span class="issued-date">📅 Issued: Feb 2025</span>
+            </p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="card">
+            <p><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:pandeleanu.cosmin@yahoo.com">pandeleanu.cosmin@yahoo.com</a></p>
+            <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/pandeleanu-cosmin-constantin/" target="_blank">LinkedIn Profile</a></p>
+            <p><i class="fa-brands fa-github"></i> <a href="https://github.com/cosmin-pandeleanu" target="_blank">GitHub Profile</a></p>
+        </div>
+    </section>
+</div>
+<footer>
+    <p class="footer-text">&copy; <span id="year"></span> Cosmin Pandeleanu. All rights reserved.</p>
+</footer>
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

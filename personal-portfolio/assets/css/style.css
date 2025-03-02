@@ -1,0 +1,146 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e1dd;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #415a77;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #1b263b;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section {
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0;
+    color: #415a77;
+    font-weight: 500;
+}
+
+.card {
+    background: linear-gradient(135deg, #f5f5f5, #e0e1dd);
+    background-color: #f9f9f9;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-title {
+    margin-top: 0;
+    color: #415a77;
+    font-weight: 600;
+}
+
+.project-link {
+    color: #1b263b;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.project-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.tech-tag {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.cert-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cert-logo {
+    height: 50px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.cert-title {
+    margin: 0;
+    color: #415a77;
+}
+
+.cert-details {
+    font-size: 14px;
+    color: #555;
+}
+
+.credential-url {
+    font-weight: bold;
+    color: #0073b1;
+    text-decoration: none;
+}
+
+.credential-url:hover {
+    text-decoration: underline;
+}
+
+.issued-date, .expiry-date {
+    color: #777;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #415a77;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
