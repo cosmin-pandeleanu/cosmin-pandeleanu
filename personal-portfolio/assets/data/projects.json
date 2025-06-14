@@ -1,0 +1,12 @@
+{
+  "projects": [
+    {
+      "title": "Personal Portfolio",
+      "link": "https://github.com/cosmin-pandeleanu/cosmin-pandeleanu",
+      "technologies": [
+        "AWS S3",
+        "GitHub Actions"
+      ]
+    }
+  ]
+}

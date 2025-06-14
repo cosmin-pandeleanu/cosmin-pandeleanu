@@ -1,0 +1,30 @@
+{
+  "certifications": [
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "logo": "assets/img/aws-logo.png",
+      "url": "https://www.credly.com/badges/bec54ccf-73b3-4a2a-a932-18816863d049/linked_in_profile",
+      "issued": "Apr 2024",
+      "expires": "Apr 2027"
+    },
+    {
+      "title": "GCP Associate Cloud Engineer Certification",
+      "logo": "assets/img/gcp-logo.png",
+      "url": "https://www.credly.com/badges/6b8812ed-999c-4391-b17b-182c2f4f4573/public_url",
+      "issued": "Jun 2025",
+      "expires": "Jun 2028"
+    },
+    {
+      "title": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      "logo": "assets/img/azure-logo.png",
+      "url": "https://learn.microsoft.com/en-us/users/PandeleanuCosminConstantin/credentials/5381DEB87EBC0F51?ref=https%3a%2f%2fwww.linkedin.com%2f",
+      "issued": "Feb 2025"
+    },
+    {
+      "title": "Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)",
+      "logo": "assets/img/azure-logo.png",
+      "url": "https://learn.microsoft.com/en-us/users/PandeleanuCosminConstantin/credentials/3E8E2403E6AA91A7?ref=https%3A%2F%2Fwww.linkedin.com%2F",
+      "issued": "Apr 2025"
+    }
+  ]
+}
